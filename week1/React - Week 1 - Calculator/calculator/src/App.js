@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Bolme from './islemler/bolme';
+import Carpma from './islemler/carpma';
+import Cikarma from './islemler/cikarma';
+import Toplama from './islemler/toplama';
+//Tum islemler import edilerek kullanilir
+
+console.log("Bolme Sonucu :" + Bolme(6, 2))
+console.log("Carpma Sonucu:" + Carpma(6, 2))
+console.log("Cikarma Sonucu :" + Cikarma(6, 2))
+console.log("Toplama Sonucu:" + Toplama(6, 2))
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ul>
+        <li>{"Bolme : " + Bolme(6, 2)}</li>
+        <li>{"Carpma : " + Carpma(6, 2)}</li>
+        <li>{"Cikarma : " + Cikarma(6, 2)}</li>
+        <li>{"Toplama : " + Toplama(6, 2)}</li>
+      </ul>
     </div>
   );
 }
