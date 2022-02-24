@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#clock{
+  font-size: 60px;
+  border: 2px solid;
+  margin: 120px;
+  padding: 50px;
+  background-color: rgb(192, 221, 221);
+  border-radius: 20px;
+}
