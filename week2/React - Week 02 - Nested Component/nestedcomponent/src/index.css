@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container-fluid{
+  border: 2px solid;
+  background-color: aquamarine;
+}
+
+*{
+  margin: 5px;
+  text-align: left;
+  
+}
+
+img  {
+  border: 2px solid;
+  margin: 2px
+}
+
+ul {
+  list-style: none;
+}
+
