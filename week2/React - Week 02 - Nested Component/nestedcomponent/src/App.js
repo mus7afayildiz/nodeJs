@@ -1,23 +1,49 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import PersonCardComponent from './Components/PersonCardComponent';
+import PersonHeaderComponent from './Components/PersonHeaderComponent';
+import ChildrenCardComponent from './Components/ChildrenCardComponent';
+import ChildrenHeaderComponent from './Components/ChildrenHeaderComponent';
+import FriendsCardComponent from './Components/FriendsCardComponent';
+import FriendsHeaderComponent from './Components/FriendsHeaderComponent';
 
+const PersonIndex = 6
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="row">
+
+        <div className="col-3">
+          {PersonHeaderComponent(PersonIndex)}
+          {PersonCardComponent(PersonIndex)}
+        </div>
+
+        <div className="col-8">
+
+          <div className="row">
+            {ChildrenHeaderComponent(PersonIndex)}
+            <div className="col">
+
+              <div className="col-3">
+                {ChildrenCardComponent(PersonIndex)}
+              </div>
+            </div>
+          </div>
+
+          <div className="row">
+            {FriendsHeaderComponent(PersonIndex)}
+            <div className="col">
+              <div className="col-3">
+                {FriendsCardComponent(PersonIndex)}
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div />
+      </div>
     </div>
   );
 }
