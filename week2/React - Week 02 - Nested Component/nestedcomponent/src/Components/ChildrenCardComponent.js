@@ -13,7 +13,7 @@ function ChildrenCardComponent(pIndex) {
                         <li>Birthday: {child.birthday}</li>
                     </ul>
                 </div>
-            </div>
+            </div>    
         )
     return (childrens
     )
