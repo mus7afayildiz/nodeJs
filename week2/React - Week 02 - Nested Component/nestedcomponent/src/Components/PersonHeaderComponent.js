@@ -1,5 +1,6 @@
 import foreigners from 'C:/Users/mus7a/OneDrive/Desktop/hicoders/nodeJs/week2/React - Week 02 - Nested Component/nestedcomponent/src/Data/foreigners.json'
 
+
 function PersonHeaderComponent(pIndex) {
     const TotalPerson = foreigners.length;
 

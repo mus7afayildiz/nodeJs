@@ -23,9 +23,9 @@ function App() {
 
           <div className="row">
             {ChildrenHeaderComponent(PersonIndex)}
-            <div className="col">
+            <div className="">
 
-              <div className="col-3">
+              <div className="col-3 wrap">
                 {ChildrenCardComponent(PersonIndex)}
               </div>
             </div>
@@ -33,11 +33,12 @@ function App() {
 
           <div className="row">
             {FriendsHeaderComponent(PersonIndex)}
-            <div className="col">
-              <div className="col-3">
+            
+            <div className="col-3">
                 {FriendsCardComponent(PersonIndex)}
-              </div>
-            </div>
+            </div>   
+              
+            
           </div>
 
         </div>
