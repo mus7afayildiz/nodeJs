@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+#clockContainer{
+  display: flex;
+  border: 2px solid;
+  justify-content: center;
+  align-items: center;
+  
+  border-radius: 30px;
+}
+
+#containerHours{
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  font-size: 130px;
+  border-radius: 30px;
+}
+
+#containerMinutes{
+  width: 200px;
+  height: 200px;
+  background-color: rgb(163, 163, 184);
+  font-size: 130px;
+  border-radius: 30px;
+}
+
+#containerSeconds{
+  width: 200px;
+  height: 200px;
+  background-color: rgb(97, 97, 207);
+  font-size: 130px;
+  border-radius: 30px;
+}
+
+#city{
+  width: 200px;
+  height: 200px;
+  background-color: rgb(138, 62, 97);
+  font-size: 30px;
+}
+
+#dropDown{
+  width: 200px;
+  height: 200px;
+  background-color: rgb(223, 209, 216);
+}
