@@ -7,9 +7,13 @@ import ChildrenHeaderComponent from './Components/ChildrenHeaderComponent';
 import FriendsCardComponent from './Components/FriendsCardComponent';
 import FriendsHeaderComponent from './Components/FriendsHeaderComponent';
 
-const PersonIndex = 6
+
+
 function App() {
 
+  
+  const PersonIndex = 3
+   
   return (
     <div className="App">
       <div className="row">
@@ -25,7 +29,7 @@ function App() {
             {ChildrenHeaderComponent(PersonIndex)}
             <div className="">
 
-              <div className="col-3 wrap">
+              <div className="d-flex">
                 {ChildrenCardComponent(PersonIndex)}
               </div>
             </div>
@@ -33,12 +37,11 @@ function App() {
 
           <div className="row">
             {FriendsHeaderComponent(PersonIndex)}
-            
-            <div className="col-3">
-                {FriendsCardComponent(PersonIndex)}
-            </div>   
-              
-            
+
+            <div className="d-flex">
+              {FriendsCardComponent(PersonIndex)}
+            </div>
+
           </div>
 
         </div>
