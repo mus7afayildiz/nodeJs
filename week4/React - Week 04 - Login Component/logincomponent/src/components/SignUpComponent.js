@@ -1,12 +1,14 @@
-import { Alert } from 'bootstrap';
 import React, { useState } from 'react'
 import UserInformation from "./UserInformation";
 
+/*Sign up component is created*/
 const SignUpComponent = () => {
 
+/*Sstates are created*/
     const [person, setPerson] = useState({});
     const [submited, setSubmited] = useState(false);
 
+/*VAlidation control*/
     const runValidations = () => {
         if (person.password !== person.repeatPassword) {
             alert("Password and Password repeat are not same")
@@ -18,7 +20,7 @@ const SignUpComponent = () => {
 
         return true;
     }
-
+/*Submit control*/
     const submit = e => {
         e.preventDefault();
 
@@ -27,6 +29,7 @@ const SignUpComponent = () => {
         }
     }
 
+/*Render Sign up component and user information component*/
     return (
         <div className="container">
             <div id="signUpContainer">

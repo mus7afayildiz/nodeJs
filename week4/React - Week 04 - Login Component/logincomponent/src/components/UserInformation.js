@@ -1,7 +1,7 @@
 export default function UserInformation(props) {
 
     const person = props.person;
-    
+ /*render user information component*/   
     return (
       <div className="d-grid gap-2 d-md-flex justify-content-md-left" id="Information">
   
