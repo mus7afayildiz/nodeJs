@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+
+#container{
+  background-color: bisque;
+  padding: 30px;
+  margin: 30px
+}
+
+.image{
+  width: 150px;
+  height: 150px;
+}
+
+p{
+  font-size: x-large;
+}
+
+button{
+  width: 100px;
+  height: 60px;
+}
