@@ -4,8 +4,12 @@ import About from './components/About';
 import Contact from './components/Contact';
 import { BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 
-
 function App() {
+  /*
+  -Router olusturulur
+  -Routes un disinda Header kismi olusturulur
+  -Elementler olusturulup linkler ve path ler verilir
+  */
   
   return (
     <Router>
@@ -14,8 +18,6 @@ function App() {
                 <div className="header"><Link to="/">HOME</Link></div>
                 <div className="header"><Link to="/about">ABOUT</Link></div>
                 <div className="header"><Link to="/contact">CONTACT</Link></div>
-            </div>
-            <div>
             </div>
       </nav>
     <Routes>

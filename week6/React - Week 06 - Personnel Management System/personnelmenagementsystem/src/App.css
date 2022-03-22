@@ -36,26 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-main{
-  display: flex;
-}
-
-.header{
-background-color: rgb(43, 48, 175);
-color: white;
-margin: 20px;
-
-}
-
-.personList{
-  margin: 10px;
-}
-
-.addPerson{
-  margin: 10px;
-}
-
-button{
-  margin: 10px;
-}
