@@ -1,13 +1,10 @@
 .headerSection{
   background-color:rgb(62, 62, 202);
-  
-  
 }
 
 .headerSelection{
   display: flex;
   flex-direction: row;
-  
 }
 
 .header{

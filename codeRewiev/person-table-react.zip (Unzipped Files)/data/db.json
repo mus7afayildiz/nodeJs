@@ -1,0 +1,60 @@
+{
+  "people":[
+    {
+      "id": 1,
+      "firstName": "Sebastian",
+      "lastName": "Eschweiler",
+      "email": "sebastian@codingthesmartway.com",
+      "password": "*******",
+      "about": "Lorem ipsum...."
+    },
+    {
+      "firstName": "asdf",
+      "lastName": "asdf",
+      "email": "mehmet.dogan@hicoders.ch",
+      "password": "asdasd",
+      "about": "asdasd",
+      "id": 5
+    },
+    {
+      "firstName": "ertzertz",
+      "lastName": "dfhdfgh",
+      "email": "mehmet.dogan@hicoders.ch",
+      "password": "asdasd",
+      "about": "rtezretzert",
+      "id": 6
+    },
+    {
+      "firstName": "aaaaa",
+      "lastName": "asdf",
+      "email": "mehmet.dogan@hicoders.ch",
+      "password": "dsf",
+      "about": "sdf",
+      "id": 7
+    },
+    {
+      "firstName": "dsfg",
+      "lastName": "sdfg",
+      "email": "mehmet.dogan@hicoders.ch",
+      "password": "afgsdfg",
+      "about": "sdfg",
+      "id": 8
+    },
+    {
+      "firstName": "dsfg",
+      "lastName": "sdfg",
+      "email": "mehmet.dogan@hicoders.ch",
+      "password": "afgsdfg",
+      "about": "sdfg",
+      "id": 9
+    },
+    {
+      "firstName": "dsfg",
+      "lastName": "sdfg",
+      "email": "mehmet.dogan@hicoders.ch",
+      "password": "afgsdfg",
+      "about": "sdfg",
+      "id": 10
+    }
+  ]
+}
