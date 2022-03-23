@@ -1,21 +1,25 @@
+import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 
-import 'bootstrap/dist/css/bootstrap.css';
 import { useEffect, useState } from 'react';
 import PersonList from './components/PersonList';
 
+/*
+-person and personlist must be created with state
+-create save and list person functions
+-it must be submit when clicked the submit button.
+-render submitted person under the list
+*/
 function App() {
   const [person, setPerson] = useState({});
   const [personList, setPersonList] = useState([]);
-  console.log(person)
-  console.log(personList)
 
   useEffect(()=>{
     getListOfPerson();
   }, []);
 
   const savePerson = async (pPerson) => {
-    await fetch('http://localhost:3001/people', {
+    await fetch('http://localhost:3000/people', {
         method:'POST',
         body: JSON.stringify(pPerson),
         headers: { 'Content-Type':'application/json' },
@@ -23,7 +27,7 @@ function App() {
   }
 
   const getListOfPerson = async () => {
-    const response = await fetch('http://localhost:3001/people');
+    const response = await fetch('http://localhost:3000/people');
     const list = await response.json();
 
     setPersonList(list);
