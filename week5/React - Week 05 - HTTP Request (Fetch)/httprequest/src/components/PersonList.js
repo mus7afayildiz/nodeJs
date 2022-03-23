@@ -1,5 +1,5 @@
 export default function PersonList({ list }) {
-
+/*rendering the person list statically*/
     return (
         <table className="table">
             <thead>
