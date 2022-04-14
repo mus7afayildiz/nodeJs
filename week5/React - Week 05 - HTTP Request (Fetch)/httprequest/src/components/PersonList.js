@@ -12,7 +12,7 @@ export default function PersonList({ list }) {
                 </tr>
             </thead>
             <tbody>
-                {
+                {/*
                     list.map((person, index) =>
                         <tr key={index}>
                             <td>{person.firstName}</td>
@@ -21,7 +21,7 @@ export default function PersonList({ list }) {
                             <td>{person.password}</td>
                             <td>{person.about}</td>
                         </tr>
-                    )
+                    )*/
                 }
             </tbody>
         </table>
